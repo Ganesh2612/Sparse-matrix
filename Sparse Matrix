@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+int a[100][100],i,j,r,c;
+printf("Enter the number of rows:");
+scanf("%d",&r);
+printf("Enter the number of coloumns:");
+scanf("%d",&c);
+printf("Enter the array element:");
+for(i=0;i<r;i++)
+for(j=0;j<c;j++)
+scanf("%d",&a[i][j]);
+printf("The required elements are:");
+for(i=0;i<r;i++)
+{
+for(j=0;j<c;j++)
+{
+if(a[i][j]!=0)
+{
+printf("%d\n",a[i][j]);
+}
+}
+}
+return 0;
+}
