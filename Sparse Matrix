@@ -2,7 +2,7 @@
 int main()
 {
 int a[100][100],i,j,r,c;
-printf("Enter the number of rows:");
+printf("Enter the number of row:")
 scanf("%d",&r);
 printf("Enter the number of coloumns:");
 scanf("%d",&c);
