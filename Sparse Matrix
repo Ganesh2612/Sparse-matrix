@@ -22,5 +22,5 @@ printf("%d\n",a[i][j]);
 }
 }
 
-return 10;
+return 0;
 }
